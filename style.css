@@ -1,0 +1,32 @@
+body{
+	margin: 0;
+	//background:#CD5C5C ;
+}
+
+h1{
+	text-align: center; /* Выровнять текст по центру  */
+	font-size: 150px;   /* Изменить размер шрифта  */
+}
+a{
+	text-decoration: none; /* Убрать подчеркивание ссылок  */
+	color: white;
+	font-size: 30px;
+	display :block ;  /* Превратить элемент в блочный  */
+	width: 20%;
+	background: #000;
+	text-align: center;
+	float: left;
+	/*height: 120px;
+	line-height: 3.7;*/
+	padding: 40px 0 40px 0;
+	text-shadow: -3px -2px 5px rgba(0, 255, 0, 1);
+}
+
+a:hover, .active_page{
+	background: white;
+	color: black;
+	-webkit-box-shadow: 4px 3px 24px -1px rgba(242,29,242,1);
+	-moz-box-shadow: 4px 3px 24px -1px rgba(242,29,242,1);
+	box-shadow: 4px 3px 24px -1px rgba(242,29,242,1);
+
+}
